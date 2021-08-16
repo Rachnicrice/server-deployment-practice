@@ -4,5 +4,25 @@
     "express": "^4.17.1",
     "jest": "^27.0.6",
     "supertest": "^6.1.5"
-  }
+  },
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "start": "node index.js"
+  },
+  "name": "server-deployment-practice",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rachnicrice/server-deployment-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rachnicrice/server-deployment-practice/issues"
+  },
+  "homepage": "https://github.com/Rachnicrice/server-deployment-practice#readme"
 }
